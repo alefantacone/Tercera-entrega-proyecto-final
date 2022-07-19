@@ -88,6 +88,11 @@ $btn: (
     border-radius:map-get($btn , radio );
     color:map-get($btn , color );
 }
+.btn:hover{
+    box-shadow: 9px 7px 16px 6px rgba(0,0,0,0.54);
+    background-color: #2D9142;
+    border: 1px solid #2D9142;   
+}
 .footer{
     background-color: #017A1C;
     color: white;
