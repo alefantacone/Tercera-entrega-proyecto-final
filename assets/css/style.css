@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.titulo {
+  background-color: gainsboro;
+}
+.titulo h1 {
+  font-size: 50px;
+  color: #017A1C;
+  font-family: "Caveat";
+}
+
+.subtitulo {
+  background-color: gainsboro;
+}
+.subtitulo h2 {
+  font-size: 60px;
+  font-family: "Bebas Neue";
+}
+
+h3 {
+  color: #017A1C;
+  font-size: 40px;
+  font-family: "Caveat";
+}
+
+.h3Productos {
+  background-color: cornsilk;
+}
+
+h4 {
+  font-family: "Rubik";
+  font-size: 40px;
+  color: #014710;
+}
+
+.Contacto {
+  border: solid 1px #017A1C;
+  border-radius: 15px;
+  background-color: gainsboro;
+}
+
+.btn {
+  background-color: #017A1C;
+  border: #017A1C;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #017A1C;
+  color: white;
+}
+.footer h5 {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+}
+.footer .pieh6 {
+  background-color: #014710;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.footer .pieh6 h6 {
+  font-size: 15px;
+}
