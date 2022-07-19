@@ -7,6 +7,7 @@
     <title>Nosotros</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="container-fluid">
@@ -46,12 +47,19 @@
 
     <main>
       <div class="row justify-content-around align-items-center my-3" >
-        <p class="col-12 col-md-6 col-xl-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
+        <p data-aos="fade-right"        
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="800" data-aos-delay="600" class="col-12 col-md-6 col-xl-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
         <div class="col-12 col-md-6 col-xl-6">
-          <img class="img-fluid" src="../assets/img/Nosotros.jpeg" alt="">
+          <img data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="1100" data-aos-delay="2000" class="img-fluid" src="../assets/img/Nosotros.jpeg" alt="">
         </div>
       </div>
-      <div class="row">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+      data-aos-duration="600" data-aos-delay="200" class="row">
         <div class="col-12 col-md-6 col-xl-6 text-center mt-3">
           <h4 class="p-3">MISIÓN</h4>
           <div>
@@ -94,13 +102,13 @@
             <h5 class="text-center">REDES</h5>
             <div class="d-flex justify-content-center ">
               <div class="m-2 ">
-                <img src="../assets/img/Iconos/Icono facebook.png" alt="">
+                <img class="imgRedes" src="../assets/img/Iconos/Icono facebook.png" alt="">
               </div>
               <div class="m-2">
-                <img src="../assets/img/Iconos/Icono instagram.png" alt="">
+                <img class="imgRedes" src="../assets/img/Iconos/Icono instagram.png" alt="">
               </div>
               <div class="m-2">
-                <img src="../assets/img/Iconos/Icono linkedin.png" alt="">
+                <img class="imgRedes" src="../assets/img/Iconos/Icono linkedin.png" alt="">
               </div>
             </div>
           </div>
@@ -123,6 +131,10 @@
         </div>
       </footer>
     <!-- JavaScript Bundle with Popper -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
