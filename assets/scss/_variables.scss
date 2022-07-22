@@ -1,0 +1,13 @@
+$btn: (
+    fondo: #017A1C,
+    borde: 0,
+    radio: 15px,
+    color: #fff, 
+);
+@mixin propiedades($fondo, $radio, $borde, $colorLetra, $padding) {
+    background-color: $fondo;
+    border-radius: $radio;
+    border: $borde;
+    color: $colorLetra;
+    padding: $padding;
+}

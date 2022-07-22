@@ -1,113 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.nav-link{
-    color: white;
-    font-size: 18px;
-}
-.titulo{
-    background-color:gainsboro;
-    h1{
-        font-size: 50px;
-        color: #017A1C;
-        font-family: "Caveat";
-    }
-}
-.subtitulo{
-    background-color: gainsboro;
-    h2{
-        font-size: 60px;
-        font-family: "Bebas Neue";
-    }
-}
-h3{
-    color: #017A1C;
-    font-size: 40px;
-    font-family: "Caveat";
-}
-.h3Productos{
-    background-color:cornsilk;
-}
-h4{
-    font-family: "Rubik";
-    font-size: 40px;
-    color: #014710;
-}
-.imgAzucar50:hover{
-    transform: translate(5px,10px) scale(1.05);
-    transition: 1s
-}
-.imgAzucar10:hover{
-    transform: translate(-5px,10px) scale(1.05);
-    transition: 1s ;
-}
-.imgMaizAm:hover{
-    transform: translate(5px,-10px) scale(1.05);
-    transition: 1s ;
-}
-.imgAlimentoPe:hover{
-    transform: translate(5px,-10px) scale(1.05);
-    transition: 1s ;
-}
-.imgAlimentoPo:hover{
-    transform: translate(5px,10px) scale(1.05);
-    transition: 1s
-}
-.imgAlimentoCe:hover{
-    transform: translate(-5px,10px) scale(1.05);
-    transition: 1s ;
-}
-.imgSnacksMa:hover{
-    transform: translate(-5px,-10px) scale(1.05);
-    transition: 1s ;
-}
+@import "fonts";
+@import "reset";
+@import "nav";
+@import "header";
+@import "variables";
+@import "main";
+@import "btn";
+@import "hover";
+@import "footer";
 
-.Contacto{
-    border: solid 1px #017A1C;
-    border-radius: 15px;
-    background-color:gainsboro;
-}
-.imgRedes:hover{
-    transform: translate(5px,5px) scale(1.20);
-    transition: 1s ;
-}
-$btn: (
-    fondo: #017A1C,
-    borde: 0,
-    radio: 15px,
-    color: #fff, 
-);
-.btn{
-    background-color:map-get($btn , fondo ) ;
-    border:map-get($btn , fondo );
-    border-radius:map-get($btn , radio );
-    color:map-get($btn , color );
-}
-.btn:hover{
-    box-shadow: 9px 7px 16px 6px rgba(0,0,0,0.54);
-    background-color: #2D9142;
-    border: 1px solid #2D9142;   
-}
-.footer{
-    background-color: #017A1C;
-    color: white;
-    h5{
-        font-family: "Bebas Neue";
-        font-size: 20px;
-    }
-    .pieh6 {
-        background-color: #014710;
-        height: 40px;
-        display: flex;
-        align-items: flex-end;
-        h6 {
-            font-size: 15px;          
-        }
-    }
-}
+
+
+
+
+
+
 

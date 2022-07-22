@@ -45,6 +45,27 @@ h4 {
   color: #014710;
 }
 
+.Contacto {
+  border: solid 1px #017A1C;
+  border-radius: 15px;
+  background-color: gainsboro;
+}
+
+.btn {
+  background-color: #017A1C;
+  border: #017A1C;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.btnAzucar, .btnSnacks, .btnAlimento, .btnMaiz {
+  background-color: rgb(5, 187, 148);
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  padding: 15px;
+}
+
 .imgAzucar50:hover {
   transform: translate(5px, 10px) scale(1.05);
   transition: 1s;
@@ -60,8 +81,18 @@ h4 {
   transition: 1s;
 }
 
+.imgMaizBl:hover {
+  transform: translate(-5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
 .imgAlimentoPe:hover {
   transform: translate(5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimentoGa:hover {
+  transform: translate(-5px, -10px) scale(1.05);
   transition: 1s;
 }
 
@@ -75,27 +106,19 @@ h4 {
   transition: 1s;
 }
 
+.imgSnacksPa:hover {
+  transform: translate(5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
 .imgSnacksMa:hover {
   transform: translate(-5px, -10px) scale(1.05);
   transition: 1s;
 }
 
-.Contacto {
-  border: solid 1px #017A1C;
-  border-radius: 15px;
-  background-color: gainsboro;
-}
-
 .imgRedes:hover {
   transform: translate(5px, 5px) scale(1.2);
   transition: 1s;
-}
-
-.btn {
-  background-color: #017A1C;
-  border: #017A1C;
-  border-radius: 15px;
-  color: #fff;
 }
 
 .btn:hover {

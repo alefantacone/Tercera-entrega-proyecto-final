@@ -1,0 +1,18 @@
+.btn{
+    background-color:map-get($btn , fondo ) ;
+    border:map-get($btn , fondo );
+    border-radius:map-get($btn , radio );
+    color:map-get($btn , color );
+}
+.btnAzucar{
+    @include propiedades(rgb(5, 187, 148), 15px, 0, #fff, 15px)   
+}
+.btnMaiz{
+    @extend .btnAzucar
+};
+.btnAlimento{
+   @extend .btnAzucar
+};
+.btnSnacks{
+    @extend .btnAzucar
+}
